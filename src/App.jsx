@@ -7,10 +7,12 @@ import Navbar from "./components/Navbar";
 import SkillsPage from "./pages/Skillspage";
 import ProjectPage from "./pages/Projectpage";
 import Projects from "./components/Projects";
+import ScrollToTop from "./utility/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop/>
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />

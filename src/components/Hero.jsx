@@ -61,7 +61,7 @@ const Hero = () => {
       <motion.div variants={item} className="flex flex-wrap gap-2 mt-4 justify-center">
         {TECH.map(t => (
           <span key={t} className="px-3 py-1 rounded-lg border border-orange-400/50 text-gray-100/50 text-sm">
-            {t}
+            <h3>{t}</h3>
           </span>
         ))}
       </motion.div>
