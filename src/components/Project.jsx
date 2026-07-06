@@ -51,7 +51,7 @@ const Project = () => {
               </div>
                <motion.div variants={item} className="mt-7 flex justify-center">
                   <NavLink
-                    to="/projectpage"
+                    to="/projects"
                     className="flex max-w-max px-3 py-1 border rounded-md justify-center items-center"
                   >
                     View all projects <ArrowRight className="size-4"/>

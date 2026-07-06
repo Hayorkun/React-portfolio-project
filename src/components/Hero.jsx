@@ -18,7 +18,7 @@ const STATS = [["3+","Projects"],["1+","Years exp."],["1+","Clients"]];
 const Hero = () => {
   return (
     <motion.section
-      className=" px-5 py-25 md:py-35 md:px-10 flex justify-center flex-col text-center"
+      className=" px-5 py-24 md:py-36 md:px-10 flex justify-center flex-col text-center"
       variants={container}
       initial="hidden"
       animate="show"
@@ -41,10 +41,10 @@ const Hero = () => {
       </motion.p>
 
       <motion.div variants={item} className="flex items-center justify-center gap-5">
-        <NavLink to="/projectpage" className="border border-orange-400/50 px-4 py-2 rounded-full text-sm hover:bg-orange-400/70 transition">
+        <NavLink to="/projects" className="border border-orange-400/50 px-4 py-2 rounded-full text-sm hover:bg-orange-400/70 transition">
           View my work
         </NavLink>
-        <NavLink to="" className="border border-orange-400/50 px-4 py-2 rounded-full text-sm hover:bg-orange-400/70 transition">
+        <NavLink to="/resume.pdf" className="border border-orange-400/50 px-4 py-2 rounded-full text-sm hover:bg-orange-400/70 transition">
           Download CV
         </NavLink>
       </motion.div>

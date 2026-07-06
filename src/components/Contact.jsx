@@ -64,10 +64,11 @@ const Contact = () => {
           subject: formData.subject,
           message: formData.message,
         },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
-      .then(() => alert("Message sent!"));
-      setFormData({ firstName: "", lastName: "", email: "", subject: "", message: "" 
+      .then(() => {
+        alert("Message sent!");
+        setFormData({ firstName: "", lastName: "", email: "", subject: "", message: "" });
       })
       .catch((err) => console.error("EmailJS error:", err))
       .finally(() => setIsLoading(false));

@@ -58,9 +58,9 @@ const pages = [
 ];
 
 const projects = [
-  { to: "/projectpage", label: "Portfolio" },
-  { to: "/projectpage", label: "Briefly" },
-  { to: "/projectpage", label: "Todo App" },
+  { to: "/projects", label: "Portfolio" },
+  { to: "/projects", label: "Briefly" },
+  { to: "/projects", label: "Todo App" },
 ];
 
 const connects = [
@@ -92,7 +92,7 @@ const Footer = () => {
           <motion.div
             custom={0}
             variants={columnVariants}
-            className="flex flex-col justify-center md:flex-"
+            className="flex flex-col justify-center md:flex-1"
           >
             <div className="self-center md:block">
               <motion.h2
@@ -130,7 +130,7 @@ const Footer = () => {
                 </motion.div>
 
                 {/* Social icons */}
-                <div className="w-50 flex justify-between self-center p-1">
+                <div className="w-48 flex justify-between self-center p-1">
                   {socials.map((s, i) => (
                     <motion.span
                       key={s}
@@ -152,7 +152,7 @@ const Footer = () => {
           </motion.div>
 
           {/* ── Nav columns ── */}
-          <div className="flex md:flex-1/2 justify-around mt-3 md:mt-0">
+          <div className="flex md:flex-row md:justify-around mt-3 md:mt-0">
 
             {/* PAGES */}
             <motion.div

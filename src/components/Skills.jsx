@@ -140,7 +140,7 @@ const Skills = () => {
             <span className="flex gap-1 items-center justify-center border border-orange-300/20 py-2 rounded-xl">
               <Sparkle className="size-4 stroke-3 fill-white" /> Time management
             </span>
-            <span className="flex gap-1 items-center justify-center border border-orange-300/20 py-2rounded-xl">
+            <span className="flex gap-1 items-center justify-center border border-orange-300/20 py-2 rounded-xl">
               <Sparkle className="size-4 stroke-3 fill-white" /> Code review
             </span>
             <span className="flex gap-1 items-center justify-center border border-orange-300/20 py-2 rounded-xl">

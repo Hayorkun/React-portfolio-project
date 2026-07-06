@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="border-b border-orange-300/50 h-15 flex justify-center items-center p-5 md:p-10 sticky top-0 z-11 bg-black">
+      <nav className="border-b border-orange-300/50 h-16 flex justify-center items-center p-5 md:p-10 sticky top-0 z-10 bg-black">
         <div className="my-max-width w-full flex justify-between">
           <div>
             <NavLink
@@ -36,7 +36,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink style={navLinkStyles} to="/projectpage">
+                <NavLink style={navLinkStyles} to="/projects">
                   Project
                 </NavLink>
               </li>
@@ -104,7 +104,7 @@ const Navbar = () => {
               <li>
                 <NavLink
                   style={navLinkStyles}
-                  to="/projectpage"
+                  to="/projects"
                   onClick={() => setSidebarOpen(false)}
                 >
                   Project

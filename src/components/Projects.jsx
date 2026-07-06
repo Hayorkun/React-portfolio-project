@@ -36,7 +36,7 @@ const Projects = () => {
         <div>
           {isLoading ? (
             <div className="flex justify-center mt-10">
-              <div class="w-12 h-12 border-4 border-dashed border-gray-200 border-t-orange-400 rounded-full animate-spin [animation-duration:1.5s]"></div>
+              <div className="w-12 h-12 border-4 border-dashed border-gray-200 border-t-orange-400 rounded-full animate-spin [animation-duration:1.5s]"></div>
             </div>
           ) : (
             <>

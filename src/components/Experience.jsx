@@ -112,7 +112,7 @@ const Experience = () => {
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true, margin: "-40px" }}
-                  className="p-1 h-6 w-6 border border-orange-500 flex items-center justify-center rounded-xl z-5"
+                  className="p-1 h-6 w-6 border border-orange-500 flex items-center justify-center rounded-xl z-10"
                 >
                   <span className="h-3 w-3 bg-orange-400 rounded-xl" />
                 </motion.div>
@@ -124,7 +124,7 @@ const Experience = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, margin: "-40px" }}
-                    className="w-0 h-50 border-orange-500 border-l"
+                    className="w-0 h-48 border-orange-500 border-l"
                     style={{ transformOrigin: "top" }}
                   />
                 )}

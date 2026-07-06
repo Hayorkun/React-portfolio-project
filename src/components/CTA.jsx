@@ -87,7 +87,7 @@ const CTA = () => {
                     "px-4 py-2 rounded-lg bg-white text-black text-sm text-center hover:bg-orange-600/60 hover:text-white transition",
                 },
                 {
-                  to: "/project",
+                  to: "/projects",
                   label: "View projects",
                   className:
                     "border px-4 py-2 text-sm text-center rounded-lg hover:text-white hover:bg-black hover:border-black transition",

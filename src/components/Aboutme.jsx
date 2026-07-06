@@ -118,7 +118,7 @@ const AboutMe = () => {
             >
               {[
                 {
-                  to: "/projectpage",
+                  to: "/projects",
                   label: (
                     <>
                       See my projects <i className="fa-solid fa-right-long"></i>
