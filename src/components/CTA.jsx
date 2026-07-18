@@ -37,7 +37,7 @@ const buttonVariants = {
 const CTA = () => {
   return (
     <div className="h-full px-5 py-10 md:py-15 flex justify-center">
-      <div className="my-max-width w-full">
+      <div className="my-max-width w-full ">
         <motion.div
           className="w-full rounded-tl-4xl rounded-br-3xl bg-orange-400 p-10 flex flex-col items-center overflow-hidden relative"
           variants={cardVariants}

@@ -152,7 +152,7 @@ const Footer = () => {
           </motion.div>
 
           {/* ── Nav columns ── */}
-          <div className="flex md:flex-row md:justify-around mt-3 md:mt-0">
+          <div className="flex justify-between md:flex-row md:justify-around mt-3 md:mt-0">
 
             {/* PAGES */}
             <motion.div
