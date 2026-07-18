@@ -60,7 +60,8 @@ const Navbar = () => {
           </div>
 
           <button
-            className="block md:hidden items-center cursor-pointer"
+            type="button"
+            className="hamburger-btn block md:hidden items-center cursor-pointer"
             onClick={() => setSidebarOpen(true)}
             aria-label="Open menu"
           >

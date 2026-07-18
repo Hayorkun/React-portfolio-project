@@ -30,9 +30,10 @@
 }
 
 @media (max-width: 767px) {
-  
   .hamburger-btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .sidebar ul li {
     list-style-type: none;
@@ -47,6 +48,18 @@
     cursor: pointer;
     color: white;
     background: #ff8a05;
+  }
+}
+
+.hamburger-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .hamburger-btn {
+    display: none;
   }
 }
 
